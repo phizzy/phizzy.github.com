@@ -1,0 +1,11 @@
+---
+layout: post
+title: 'A JavaScript Markdown converter and editor'
+data: 2014-03-21 23:20:00
+categories: blog
+tags: utility library
+---
+
+PageDown is the JavaScript Markdown previewer used on Stack Overflow and the rest of the Stack Exchange network. It includes a Markdown-to-HTML converter and an in-page Markdown editor with live preview.
+
+[PageDown Introduction](https://code.google.com/p/pagedown/wiki/PageDown)
