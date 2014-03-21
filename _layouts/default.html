@@ -22,7 +22,17 @@
             </ul>
         </nav>
     </header>
-    {{ content }}
+    {% if page.hasNoSide %}
+        {{ content }}
+    {% else %}
+    <div class="row">
+        <div class="row-content">
+            {{ content }}
+        </div>
+        <div class="row-side">
+        </div>
+    </div>
+    {% endif %}
     <footer></footer>
 </body>
 </html>

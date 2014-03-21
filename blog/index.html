@@ -4,24 +4,15 @@ title: Blog
 weight: 2
 ---
 
-<div class="row">
-    <div class="row-content">
-    {% for iPost in site.posts %}
+{% for iPost in site.posts %}
+    <div>
+        <h3><a href="{{ iPost.url }}">{{ iPost.title }}</a></h3>
         <div>
-            <h3><a href="{{ iPost.url }}">{{ iPost.title }}</a></h3>
-            <div>
-                {% if iPost.showExcerptInList %}
-                {{ iPost.excerpt }}
-                {% else %}
-                {{ iPost.content }}
-                {% endif %}
-            </div>
+            {% if iPost.showExcerptInList %}
+            {{ iPost.excerpt }}
+            {% else %}
+            {{ iPost.content }}
+            {% endif %}
         </div>
-    {% endfor %}
     </div>
-    <aside class="row-side">
-        <h4></h4>
-        <ul>
-        </ul>
-    </aside>
-</div>
+{% endfor %}
