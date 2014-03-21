@@ -1,7 +1,7 @@
 phizzy.github.com
 =================
 
-=== Directory structure ===
+### Directory structure ###
 * _config.yml: Stores configuration data. Many of these options can be specified from the command line executable but it’s easier to specify them here so you don’t have to remember them.
 * _drafts: Drafts are unpublished posts. The format of these files is without a date: title.MARKUP. 
 * _includes: These are the partials that can be mixed and matched by your layouts and posts to facilitate reuse. The liquid tag  {% include file.ext %} can be used to include the partial in  _includes/file.ext
