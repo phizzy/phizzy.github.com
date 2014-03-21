@@ -1,1 +1,27 @@
-herer
+---
+layout: default
+title: Blog
+weight: 2
+---
+
+<div class="row">
+    <div class="row-content">
+    {% for iPost in site.posts %}
+        <div>
+            <h3><a href="{{ iPost.url }}">{{ iPost.title }}</a></h3>
+            <div>
+                {% if iPost.showExcerptInList %}
+                {{ iPost.excerpt }}
+                {% else %}
+                {{ iPost.content }}
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+    <aside class="row-side">
+        <h4></h4>
+        <ul>
+        </ul>
+    </aside>
+</div>

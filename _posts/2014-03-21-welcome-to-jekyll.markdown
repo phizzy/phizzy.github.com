@@ -3,6 +3,10 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2014-03-21 13:25:46
 categories: blog
+tags:   slide
+slideImage: http://i.msdn.microsoft.com/dynimg/IC716430.jpg
+slideTitle: 我就是爱测试
+showExcerptInList:  1
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
