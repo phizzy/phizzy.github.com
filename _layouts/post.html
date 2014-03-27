@@ -23,10 +23,12 @@
         </nav>
     </header>
     {% if page.hasNoSide %}
+        {{ page.title }}
         {{ content }}
     {% else %}
     <div class="row">
         <div class="row-content">
+            {{ page.title }}
             {{ content }}
         </div>
         <div class="row-side">
