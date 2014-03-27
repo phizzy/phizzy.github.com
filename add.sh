@@ -27,3 +27,5 @@ mkdir -p "images/$file/"
 
 now=`date '+%Y-%m-%d %H:%M:%S'`
 echo "---\nlayout: post\npostname: $file\ndate: $now\ntitle: "Title"\ncategories: blog\ntags: slide\nslideImage: \n---" > _posts/"$file".markdown
+
+git add _posts/"$file".markdown
