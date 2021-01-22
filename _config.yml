@@ -1,0 +1,6 @@
+name: Phizzy
+markdown: redcarpet
+pygments: true
+paginate: 5
+
+theme: jekyll-theme-midnight
